@@ -1,0 +1,37 @@
+/* For the employee-card */
+.sub-system-card {
+    height: 17rem;
+    width: 15rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #3498db;
+    border-radius: 8px;
+  
+    /* Style on hover */
+    &:hover {
+      transform: translateY(-5px); 
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* For the employee-card */
+.sub-system-card img {
+    height: 12rem;
+}
+
+.s-admin-dashboard {
+   margin: 5rem 0 5rem 0;
+}
+
+/* For the heading in the dashboard */
+.whr-dashboard-heading {
+    margin: 0 0 0 10px;
+    font-weight: 700;
+}
+
+/* For the text in the sub-system cards */
+.sub-system-card-title {
+    text-align:  center;
+}

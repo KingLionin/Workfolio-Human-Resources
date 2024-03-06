@@ -1,0 +1,23 @@
+/* Global */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* For the modal fade */
+.fade {
+  min-width: 100%;
+}
+
+#myTable thead th {
+  background-color: #121212;;
+  color: #FDFAFF;
+  /* Set the text color to white or any scontrasting color */
+}
+
+
+.heading button {
+  margin: 0 1rem 0 0;
+}
